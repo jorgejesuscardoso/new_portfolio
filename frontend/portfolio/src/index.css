@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #212121;
   color: #fff;
   font-size: 16px;
 }
@@ -32,9 +33,17 @@ input:focus {
 ul {
   list-style: none;
 }
+ 
+.claro {
+  background-color: var(--nav-color-white) !important;
+}
 
 :root {
-  --nav-color: #000;
+  --nav-color-black: #000;
+  --nav-color-white: #fff;
+  --body-color: #212121;
   --text-color-white: #fff;
+  --text-color-black: #000;
   --border-color-1: #fff;
+  --border-color-2: #000;
 }

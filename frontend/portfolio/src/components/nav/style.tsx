@@ -31,4 +31,12 @@ export const MainNavbar = styled.nav`
           color: var(--text-color-white);
         }
     }
+    &.claro {
+      a {
+            color: var(--text-color-black);
+          }
+      li:hover {
+        border-bottom: 1px solid var(--border-color-2);
+      }
+    }
 `;
