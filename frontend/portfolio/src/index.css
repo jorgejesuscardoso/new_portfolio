@@ -35,12 +35,14 @@ ul {
 }
  
 .claro {
-  background-color: var(--nav-color-white) !important;
+  background-color: var(--bg-color-body);
+  color: var(--text-color-black);
 }
 
 :root {
   --nav-color-black: #000;
   --nav-color-white: #fff;
+  --bg-color-body: #ccc;
   --body-color: #212121;
   --text-color-white: #fff;
   --text-color-black: #000;

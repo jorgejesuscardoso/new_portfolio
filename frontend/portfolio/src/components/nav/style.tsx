@@ -38,5 +38,6 @@ export const MainNavbar = styled.nav`
       li:hover {
         border-bottom: 1px solid var(--border-color-2);
       }
+      background-color: var(--nav-color-white) !important;
     }
 `;

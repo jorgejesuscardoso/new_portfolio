@@ -11,6 +11,10 @@ export const HeaderStyle = styled.header`
   top: 0;
   width: 100%;
   height: 10vh;
+
+  &.claro {
+    background-color: var(--nav-color-white) !important;
+  }
 `;
 
 export const ImgContainer = styled.div`
