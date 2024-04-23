@@ -1,8 +1,10 @@
 type ActionType = {
   type: string,
-  theme: string
+  theme: string,
 }
+  
 const INITIAL_STATE = 'escuro';
+  
 
 export const changeThemeReduce = (state = INITIAL_STATE, action: ActionType) => {
     switch (action.type) {
