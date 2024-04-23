@@ -19,7 +19,7 @@ export const MainNavbar = styled.nav`
           align-items: center;
           height: 80%;
           width: 20%;
-          border-bottom: transparent;
+          border-bottom: 1px solid transparent;
 
           &:hover {
             border-bottom: 1px solid var(--border-color-1);
@@ -45,7 +45,7 @@ export const MainNavbar = styled.nav`
       li:hover {
         border-bottom: 1px solid var(--border-color-2);
       }
-      
+
       background-color: var(--nav-color-white) !important;
     }
 `;
