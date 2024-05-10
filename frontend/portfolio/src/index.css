@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #212121;
-  color: #fff;
+  background-color: var(--bg-color-body);
+  color: var(--text-color-white);
   font-size: 16px;
 }
 
@@ -35,17 +35,19 @@ ul {
 }
  
 .claro {
-  background-color: var(--bg-color-body);
-  color: var(--text-color-black);
+  background-color: #ccc;
+  color: var(--text-color-gray);
 }
 
 :root {
-  --nav-color-black: #000;
+  --nav-color-black: #292929;
   --nav-color-white: #fff;
-  --bg-color-body: #ccc;
-  --body-color: #212121;
-  --text-color-white: #fff;
+  --bg-color-body: #111;
+  --text-color-white: #ddd;
   --text-color-black: #000;
+  --text-color-gray: #2e2e2e;
   --border-color-1: #fff;
   --border-color-2: #000;
+  --section-bg-color-1: #222;
+  --section-bg-color-white: #999;
 }

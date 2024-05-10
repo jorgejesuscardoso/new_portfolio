@@ -13,11 +13,6 @@ const NavBar = ({ Thema }: Thema) => {
             Home
           </Link>
         </li>
-        <li>          
-          <Link to='/portfolio'>
-            Portfólio
-          </Link>
-        </li>
         <li>
           <Link to='/services'>
             Serviços

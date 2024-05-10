@@ -21,7 +21,7 @@ import { changeThemeAction } from '../../redux/actions/actionTheme';
 
 const MainHeader = () => {
   const dispatch = useDispatch();
-  const [toggleTheme, setToggleTheme] = useState<'claro' | 'escuro'>('escuro')
+  const [toggleTheme, setToggleTheme] = useState<'claro' | 'escuro'>('claro')
 
   useEffect(() => {
     const hasThema = GetFromLocalStorage('thema');
