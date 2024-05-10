@@ -14,6 +14,16 @@ const NavBar = ({ Thema }: Thema) => {
           </Link>
         </li>
         <li>
+          <Link to='/projects'>
+            Projetos
+          </Link>
+        </li>
+        <li>
+          <Link to='/highlights'>
+            Destaques
+          </Link>
+        </li>
+        <li>
           <Link to='/services'>
             Serviços
           </Link>
