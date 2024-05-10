@@ -1,2 +1,5 @@
-# new_portfolio
-Novo portfolio utilizando POO com typescript
+# Visão geral
+**Deploy:** [Netlify](https://bushidodevlab.netlify.app/)
+
+#### Seja bem bindo ao meu portfólio
+
