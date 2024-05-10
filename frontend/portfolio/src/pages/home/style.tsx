@@ -18,11 +18,9 @@ export const ApresentationSection = styled.section`
   justify-content: end;
   align-items: center;
   width: 100%;
-  height: 380px;
 
   img {
-    width: 400px;
-    height: 300px;
+    width: 30vw;
     padding: 10px;
     border-radius: 50%;  
   }
@@ -45,7 +43,6 @@ export const ApresentationProfile = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 400px;
   margin-right: 10vw;
 `;
 
@@ -54,5 +51,4 @@ export const ApresentationNote = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 400px;
 `;
