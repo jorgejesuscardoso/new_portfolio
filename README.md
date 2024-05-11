@@ -1,4 +1,4 @@
-## Seja bem bindo ao meu portfólio
+## Seja bem vindo ao meu portfólio
 # Visão geral
 Este projeto é um site de portfólio pessoal desenvolvido para destacar minhas habilidades, experiências e projetos em desenvolvimento web. O objetivo principal é fornecer aos visitantes uma visão abrangente das minhas capacidades e conquistas profissionais.
 

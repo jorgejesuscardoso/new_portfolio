@@ -52,5 +52,3 @@ ul {
   --section-bg-color-white: #999;
   --bg-footer-color: #151518;
 }
-
-git commit -am "feat: criado roda pé. refat: componentizei todos os itens da page home, criado componente card com foto e detalhes, componente section da home com a seção about'
