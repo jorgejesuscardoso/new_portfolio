@@ -1,20 +1,26 @@
 import { useEffect, useState } from 'react';
 import { MainHome } from './style';
 import { useSelector } from 'react-redux';
-import { ChangeThemeRedux } from '../../Types';
+import { ChangeDescriptionRedux, ChangeThemeRedux } from '../../Types';
 import PresentationSection from '../../components/sections/home/Presentation';
 import { SkillSections } from '../../components/sections/home/section_skills/Skills';
 import { SoftSkillSections } from '../../components/sections/home/section_softskill/SoftSkill';
-import { Criatividade } from '../../components/sections/home/section_softskill/SoftSkillDescription ';
+import { SoftSkillDescriptionUtil } from '../../components/sections/home/section_softskill/Index';
 
 const Home = () => {
   const themeSelector = useSelector((state:ChangeThemeRedux) => state.changeThemeReduce )
+  const descriptionSelector = useSelector((state:ChangeDescriptionRedux) => state.changeDescriptionReduce )
 
   const [theme, setTheme] = useState('')
+  const [description, setDescription] = useState('')
 
   useEffect(() => {
     setTheme(themeSelector)
   }, [themeSelector])
+
+  useEffect(() => {
+    setDescription(descriptionSelector)
+  }, [descriptionSelector])
 
   return(
     <MainHome className={ theme }>
@@ -23,7 +29,7 @@ const Home = () => {
       />
       <SkillSections />
       <SoftSkillSections />
-      <Criatividade />
+      <SoftSkillDescriptionUtil name={ description } />
     </MainHome>
   )
 }

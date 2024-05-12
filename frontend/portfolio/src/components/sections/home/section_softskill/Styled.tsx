@@ -9,8 +9,10 @@ export const SoftSkillSectionsStyled = styled.section`
 
   &.claro {
     li {
+      background-color: var(--section-bg-color-green);
       &:hover {
-        color: var(--text-color-hover-white);
+        background-color: var(--section-bg-color-blue);
+        color: var(--text-color-hover-green);
         font-weight: 900;
       }
     }
@@ -37,11 +39,15 @@ export const SoftSkillList = styled.ul`
 `;
 
 export const SoftSkillItem = styled.li`
+  background-color: var(--text-color-hover-gray);
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  height: 35px;
   margin: 1rem;
-  color: var(--text-color-gray-2);
+  padding: 0 0.5rem;
+  color: var(--text-color-white);
+  border-radius: 20px;
   cursor: pointer;
 
   &:hover {
@@ -57,7 +63,6 @@ export const SoftSkillIcon = styled.img`
 export const SoftSkillName = styled.span`
   font-size: 0.9rem;
   font-weight: 700;
-  margin-top: 0.5rem;
 `;
 
 export const SoftSkillDescription = styled.div`
@@ -79,7 +84,7 @@ export const SoftSkillDescription = styled.div`
   &.claro {
     background-color: var(--section-bg-color-white);
     span {
-      color: var(--text-color-hover-white);
+      color: var(--text-color-hover-green);
     }
 
     p {

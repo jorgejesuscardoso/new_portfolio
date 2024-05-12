@@ -48,7 +48,8 @@ ul {
   --text-color-gray: #2e2e2e;
   --text-color-gray-2: #444;
   --text-color-hover: #08f700;
-  --text-color-hover-white: #01550d;
+  --text-color-hover-green: #01550d;
+  --text-color-hover-gray: #215c2933;
   --border-color-1: #fff;
   --border-color-2: #000;
   --section-bg-color-1: #1b1b1b;
@@ -56,6 +57,8 @@ ul {
   --section-bg-color-2: #2e2e2e;
   --section-bg-color-3: #888888;
   --section-bg-color-white: #aaa;
+  --section-bg-color-green: #105e00;
+  --section-bg-color-blue: #00ddff;
   --bg-footer-color: #151518;
   --scrollbar-thumb: #212121;
   --scrollbar-track: #111;
