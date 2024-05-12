@@ -11,7 +11,7 @@ export const FooterStyle = styled.footer`
   height: 30vh;
   width: 100%;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   bottom: 0;
 `;
 
@@ -29,6 +29,6 @@ export const CopyR = styled.p`
   justify-content: center;
   align-items: center;
   color: var(--text-color-white);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   bottom: 0;
 `;

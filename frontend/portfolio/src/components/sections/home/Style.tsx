@@ -5,6 +5,7 @@ export const PresentationSectionStyle = styled.section`
   justify-content: end;
   align-items: center;
   padding: 15px 0;
+  font-size: 0.8rem;
   width: 100%;
   
   &.claro {

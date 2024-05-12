@@ -7,7 +7,7 @@
 body {
   background-color: var(--bg-color-body);
   color: var(--text-color-white);
-  font-size: 16px;
+  font-size: 15px;
 }
 
 a {
@@ -51,4 +51,6 @@ ul {
   --section-bg-color-1: #1b1b1b;
   --section-bg-color-white: #999;
   --bg-footer-color: #151518;
+  --scrollbar-thumb: #212121;
+  --scrollbar-track: #111;
 }
