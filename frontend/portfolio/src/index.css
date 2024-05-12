@@ -35,7 +35,7 @@ ul {
 }
  
 .claro {
-  background-color: #ccc;
+  background-color: #eee;
   color: var(--text-color-gray);
 }
 
@@ -46,11 +46,18 @@ ul {
   --text-color-white: #ddd;
   --text-color-black: #000;
   --text-color-gray: #2e2e2e;
+  --text-color-gray-2: #444;
+  --text-color-hover: #08f700;
+  --text-color-hover-white: #01550d;
   --border-color-1: #fff;
   --border-color-2: #000;
   --section-bg-color-1: #1b1b1b;
-  --section-bg-color-white: #999;
+  --section-bg-color-transp: #1b1b1b70;
+  --section-bg-color-2: #2e2e2e;
+  --section-bg-color-3: #888888;
+  --section-bg-color-white: #aaa;
   --bg-footer-color: #151518;
   --scrollbar-thumb: #212121;
   --scrollbar-track: #111;
+  --thumb-bg-color: #b6b6b6c2;
 }

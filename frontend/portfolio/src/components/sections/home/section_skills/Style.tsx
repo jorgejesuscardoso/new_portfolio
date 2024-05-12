@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const SkillSectionsStyled = styled.section`
-  background-color: var(--section-bg-color-2);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +9,10 @@ export const SkillSectionsStyled = styled.section`
   width: 100%;
   
   &.claro {
-    background-color: var(--section-bg-color-white);  
+    li {
+      background-color: var(--thumb-bg-color);
+      color: var(--text-color-black);
+    } 
   }
 `;
 
@@ -19,13 +21,12 @@ export const SkillsContent = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: 0 3vw;
+  padding: 0 10vw;
 `;
 
 export const SkillsTitle = styled.h2`
   color: var(--text-color);
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  margin: 2vh 0;
 `;
 
 export const SkillsList = styled.ul`
@@ -34,6 +35,7 @@ export const SkillsList = styled.ul`
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   gap: 1px;
   width: 100%;
+  margin-bottom: 3vh;
 `;
 
 export const SkillItem = styled.li`
@@ -41,9 +43,13 @@ export const SkillItem = styled.li`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--section-bg-color-3);
+  background-color: var(--section-bg-color-transp);
   padding: 8px;
   border-radius: 10px;
+
+  &.claro {
+    background-color: var(--section-bg-color-1);
+  }
 `;
 
 export const SkillIcon = styled.img`

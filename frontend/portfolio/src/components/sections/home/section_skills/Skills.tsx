@@ -1,9 +1,18 @@
+import { useSelector } from 'react-redux';
 import { CS, DOCKER, EXP, JS, NodeIco, ORM, PY, Reactico, SQL, TS } from '../../../../utils/ImportIcons'
 import { SkillIcon, SkillItem, SkillName, SkillSectionsStyled, SkillsContent, SkillsList, SkillsTitle } from './Style'
+import { ChangeThemeRedux } from '../../../../Types';
+import { useEffect, useState } from 'react';
 
 export const SkillSections = () => {
+    const themeSelector = useSelector((state: ChangeThemeRedux) => state.changeThemeReduce);
+    const [theme, setTheme] = useState(themeSelector);
+
+    useEffect(() => {
+        setTheme(themeSelector);
+    }, [themeSelector]);
     return (
-        <SkillSectionsStyled>
+        <SkillSectionsStyled className={ theme }>
             <SkillsContent>
                 <SkillsTitle>Principais Stacks</SkillsTitle>
                 <SkillsList>
