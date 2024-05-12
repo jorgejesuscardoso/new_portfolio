@@ -19,7 +19,7 @@ export const SkillsContent = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  margin: 0 10vw;
+  padding: 0 3vw;
 `;
 
 export const SkillsTitle = styled.h2`
@@ -29,9 +29,11 @@ export const SkillsTitle = styled.h2`
 `;
 
 export const SkillsList = styled.ul`
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   gap: 1px;
+  width: 100%;
 `;
 
 export const SkillItem = styled.li`
@@ -40,7 +42,7 @@ export const SkillItem = styled.li`
   justify-content: center;
   align-items: center;
   background-color: var(--section-bg-color-3);
-  padding: 9px;
+  padding: 8px;
   border-radius: 10px;
 `;
 
@@ -51,6 +53,6 @@ export const SkillIcon = styled.img`
 
 export const SkillName = styled.span`
   color: var(--text-color);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-top: 10px;
 `;
