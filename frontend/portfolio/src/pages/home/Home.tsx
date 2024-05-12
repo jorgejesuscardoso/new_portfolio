@@ -3,6 +3,7 @@ import { MainHome } from './style';
 import { useSelector } from 'react-redux';
 import { ChangeThemeRedux } from '../../Types';
 import PresentationSection from '../../components/sections/home/Presentation';
+import { SkillSections } from '../../components/sections/home/section_skills/Skills';
 
 const Home = () => {
   const themeSelector = useSelector((state:ChangeThemeRedux) => state.changeThemeReduce )
@@ -18,6 +19,7 @@ const Home = () => {
       <PresentationSection
         theme={ theme }
       />
+      <SkillSections />
     </MainHome>
   )
 }
