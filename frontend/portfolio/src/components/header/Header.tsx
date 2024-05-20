@@ -24,8 +24,8 @@ const MainHeader = () => {
   const [toggleTheme, setToggleTheme] = useState<'claro' | 'escuro'>('claro')
 
   useEffect(() => {
-    const hasThema = GetFromLocalStorage('thema');
-    if (hasThema) setToggleTheme(hasThema === 'claro' ? 'claro' : 'escuro')
+    const hasTheme = GetFromLocalStorage('thema');
+    if (hasTheme) setToggleTheme(hasTheme === 'claro' ? 'claro' : 'escuro')
   }, [])
 
   useEffect(() => {
@@ -49,7 +49,7 @@ const MainHeader = () => {
         />
       </ImgContainer>
       <NavBar 
-        Thema={ toggleTheme }
+        Theme={ toggleTheme }
       />
     </HeaderStyle>
   )
