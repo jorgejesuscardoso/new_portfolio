@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 import { MainNavbar } from './style';
-import { Thema } from '../../Types';
+import { Theme } from '../../Types';
 
 
-const NavBar = ({ Thema }: Thema) => { 
+const NavBar = ({ Theme }: Theme) => { 
 
   return(
-    <MainNavbar className={ Thema }>
+    <MainNavbar className={ Theme }>
       <ul>
         <li>
           <Link to='/'>
