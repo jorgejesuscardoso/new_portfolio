@@ -19,6 +19,7 @@ export const PresentationContent = styled.div`
   justify-content: center;
   width: 100%;
   margin: 0 10vw;
+  gap: 10px;
 `;
 
 export const PresentationProfile = styled.div`

@@ -165,7 +165,7 @@ export const Contact = () => {
         </ul>
       </SocialContainer>
       <FormContainer>
-        <h3>Se preferir mande uma mensagem:</h3>
+        <h3>Se preferir envie uma mensagem:</h3>
         <p>Responderei o mais rápido possível.</p>
         <p>Obrigado!</p>
         <FormContent onSubmit={ (e) => handleSubmit(e) }>

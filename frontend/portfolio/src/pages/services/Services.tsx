@@ -5,7 +5,7 @@ export const Services = () => {
   return (
     <MainContainerServices>
       <h1>
-        Nossos Serviçõs.
+        Nossos Serviços.
       </h1>
       <WarningSoon />
     </MainContainerServices>
