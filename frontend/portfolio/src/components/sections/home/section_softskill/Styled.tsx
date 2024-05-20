@@ -9,9 +9,9 @@ export const SoftSkillSectionsStyled = styled.section`
 
   &.claro {
     li {
-      background-color: var(--section-bg-color-green);
+      border: 1px solid var(--border-color-4);
+      color: var(--text-color-gray-4);
       &:hover {
-        background-color: var(--section-bg-color-blue);
         color: var(--text-color-hover-green);
         font-weight: 900;
       }
@@ -39,15 +39,15 @@ export const SoftSkillList = styled.ul`
 `;
 
 export const SoftSkillItem = styled.li`
-  background-color: var(--text-color-hover-gray);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 35px;
   margin: 1rem;
   padding: 0 0.5rem;
-  color: var(--text-color-white);
+  color: var(--text-color-gray-3);
   border-radius: 20px;
+  border: 1px solid var(--border-color-3);
   cursor: pointer;
 
   &:hover {
