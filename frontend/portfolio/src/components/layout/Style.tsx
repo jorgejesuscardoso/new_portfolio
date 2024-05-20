@@ -16,4 +16,17 @@ export const LayOt = styled.div`
     &::-webkit-scrollbar-track {
       background-color: var(--scrollbar-track);
     }
+
+    &.claro {
+      &::-webkit-scrollbar {
+      width: 10px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: var(--scrollbar-thumb-claro);
+        border-radius: 10px;
+      }
+      &::-webkit-scrollbar-track {
+        background-color: var(--scrollbar-track-claro);
+      }
+    }
 `;

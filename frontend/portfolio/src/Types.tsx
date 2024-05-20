@@ -1,5 +1,5 @@
-export interface Thema {
-  Thema: 'claro' | 'escuro';
+export interface Theme {
+  Theme: 'claro' | 'escuro';
 }
 export type ChangeThemeRedux = {changeThemeReduce: string}
 

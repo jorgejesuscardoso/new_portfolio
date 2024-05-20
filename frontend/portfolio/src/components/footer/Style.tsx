@@ -11,8 +11,17 @@ export const FooterStyle = styled.footer`
   height: 30vh;
   width: 100%;
   padding: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 600;
   bottom: 0;
+
+  &.claro {
+    background-color: var(--bg-footer-color-claro) !important;
+    color: var(--text-color-gray-2) !important;
+    p {
+      color: var(--text-color-gray-2) !important;
+    }
+  }
 `;
 
 export const FooterContainer = styled.div`

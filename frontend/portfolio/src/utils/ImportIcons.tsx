@@ -13,3 +13,7 @@ export const SQL = 'mysql.png';
 export const EXP = 'exp.svg';
 export const DOCKER = 'docker.png';
 export const ORM = 'sequelize.svg';
+export const Linkedin = 'ico_linkedin.png';
+export const face = 'ico_face.png';
+export const insta = 'ico_insta.png';
+export const X = 'ico_x.png';
